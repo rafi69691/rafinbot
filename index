@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Satellite Communication Signal</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="qx.png" href="qx.png">
+    <title>Satellite Signal Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="ui">SIGNAL STRENGTH: ████▯ 85%</div>
@@ -28,15 +27,6 @@
         <div id="result" class="result"></div>
         <div id="progress-bar-container" style="display: none;">
             <div id="progress-bar"></div>
-        </div>
-    </div>
-    <div id="password-modal" class="modal-overlay" style="display: none;">
-        <div class="modal">
-            <span class="close-button" onclick="closePasswordModal()">&times;</span>
-            <h2>Enter Quotex id</h2>
-            <input type="password" id="password" placeholder="Enter id here" />
-            <button onclick="unlock()" style="background-color: black; color: white;">Unlock</button>
-            <div id="password-error" style="color: red; display: none;">Incorrect Quotex id</div>
         </div>
     </div>
     <div id="telegram-contact">
